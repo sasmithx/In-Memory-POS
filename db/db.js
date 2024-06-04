@@ -22,7 +22,13 @@ var customerDB = [
     name: "John",
     address: "Colombo Kotte",
     contact: "077-1234567",
-  }
+  },
+  {
+    id: "C00-005",
+    name: "Eric",
+    address: "Colombo 07",
+    contact: "077-1234567",
+  },
 ];
 
 var itemDB = [
