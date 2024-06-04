@@ -264,6 +264,8 @@ function generateNextOrderID() {
     return `OID-${String(nextOrderNumber).padStart(3, '0')}`;
 }
 
+// load CustId to Index 
+
 function loadCustIds(){
     for (let i = 0; i < customerDB.length; i++) {
         let custId = customerDB[i].id;
